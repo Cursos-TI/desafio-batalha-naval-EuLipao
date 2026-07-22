@@ -28,13 +28,16 @@ int main() {
     printf("****************************\n");
     printf("**B a t a l h a  N a v a l *\n");
     printf("****************************\n");
-    printf("    A B C D E F G H I J\n");
+    printf("   A B C D E F G H I J\n");
    
     for (int i = 0; i < 10; i++)
     {   
         printf(" %d %d %d %d %d %d %d %d %d %d %d \n",tab,tabuleiro[i][0],tabuleiro[i][1],tabuleiro[i][2],tabuleiro[i][3],tabuleiro[i][4],tabuleiro[i][5],tabuleiro[i][6],tabuleiro[i][7],tabuleiro[i][8],tabuleiro[i][9]);
         tab++;
     }
+    tabuleiro [2][3]= 3;
+    tabuleiro [2][4]= 3;
+    tabuleiro [2][5]= 3;
     
 
     // Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal
