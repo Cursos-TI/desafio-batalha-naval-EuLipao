@@ -9,6 +9,33 @@ int main() {
     // Sugestão: Declare uma matriz bidimensional para representar o tabuleiro (Ex: int tabuleiro[5][5];).
     // Sugestão: Posicione dois navios no tabuleiro, um verticalmente e outro horizontalmente.
     // Sugestão: Utilize `printf` para exibir as coordenadas de cada parte dos navios.
+    int tab = 1;
+    int tabuleiro[10][10]={
+       //0 1 2 3 4 5 6 7 8 9
+  /*0*/ {0,0,0,0,0,0,0,0,0,0},
+  /*1*/ {0,0,0,0,0,0,0,0,0,0},
+  /*2*/ {0,0,0,0,0,0,0,0,0,0},
+  /*3*/ {0,0,0,0,0,0,0,0,0,0},
+  /*4*/ {0,0,0,0,0,0,0,0,0,0},
+  /*5*/ {0,0,0,0,0,0,0,0,0,0},
+  /*6*/ {0,0,0,0,0,0,0,0,0,0},
+  /*7*/ {0,0,0,0,0,0,0,0,0,0},
+  /*8*/ {0,0,0,0,0,0,0,0,0,0},
+  /*9*/ {0,0,0,0,0,0,0,0,0,0}
+    };
+    int navio[3]= {3,3,3};
+
+    printf("****************************\n");
+    printf("**B a t a l h a  N a v a l *\n");
+    printf("****************************\n");
+    printf("    A B C D E F G H I J\n");
+   
+    for (int i = 0; i < 10; i++)
+    {   
+        printf(" %d %d %d %d %d %d %d %d %d %d %d \n",tab,tabuleiro[i][0],tabuleiro[i][1],tabuleiro[i][2],tabuleiro[i][3],tabuleiro[i][4],tabuleiro[i][5],tabuleiro[i][6],tabuleiro[i][7],tabuleiro[i][8],tabuleiro[i][9]);
+        tab++;
+    }
+    
 
     // Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal
     // Sugestão: Expanda o tabuleiro para uma matriz 10x10.
